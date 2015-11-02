@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<test>
+  <nodes>
+    <node>
+      <id>0</id>
+      <label>ENTRANCE</label>
+      <type>E</type>
+      <color b="128" g="128" r="38"/>
+      <position x="816" y="358"/>
+    </node>
+    <node>
+      <id>1</id>
+      <label>CORRIDOR</label>
+      <type>C</type>
+      <color b="5" g="135" r="242"/>
+      <position x="820" y="278"/>
+    </node>
+    <node>
+      <id>2</id>
+      <label>STAIRS</label>
+      <type>E</type>
+      <color b="190" g="190" r="91"/>
+      <position x="789" y="247"/>
+    </node>
+    <node>
+      <id>3</id>
+      <label>WASHROOM</label>
+      <type>C</type>
+      <color b="167" g="202" r="232"/>
+      <position x="788" y="312"/>
+    </node>
+    <node>
+      <id>4</id>
+      <label>WASHROOM</label>
+      <type>C</type>
+      <color b="167" g="202" r="232"/>
+      <position x="772" y="321"/>
+    </node>
+    <node>
+      <id>5</id>
+      <label>BATHROOM</label>
+      <type>R</type>
+      <color b="125" g="248" r="255"/>
+      <position x="751" y="328"/>
+    </node>
+    <node>
+      <id>6</id>
+      <label>BATHROOM</label>
+      <type>R</type>
+      <color b="125" g="248" r="255"/>
+      <position x="758" y="341"/>
+    </node>
+    <node>
+      <id>7</id>
+      <label>BATHROOM</label>
+      <type>R</type>
+      <color b="125" g="248" r="255"/>
+      <position x="792" y="368"/>
+    </node>
+    <node>
+      <id>8</id>
+      <label>BATHROOM</label>
+      <type>R</type>
+      <color b="125" g="248" r="255"/>
+      <position x="779" y="367"/>
+    </node>
+    <node>
+      <id>9</id>
+      <label>BATHROOM</label>
+      <type>R</type>
+      <color b="125" g="248" r="255"/>
+      <position x="765" y="368"/>
+    </node>
+    <node>
+      <id>10</id>
+      <label>WASHROOM</label>
+      <type>C</type>
+      <color b="167" g="202" r="232"/>
+      <position x="783" y="349"/>
+    </node>
+    <node>
+      <id>11</id>
+      <label>CONFERENCE</label>
+      <type>R</type>
+      <color b="30" g="30" r="168"/>
+      <position x="888" y="308"/>
+    </node>
+    <node>
+      <id>12</id>
+      <label>ENTRANCE</label>
+      <type>E</type>
+      <color b="128" g="128" r="38"/>
+      <position x="1006" y="297"/>
+    </node>
+  </nodes>
+  <connections>
+    <connection>
+      <id>1</id>
+      <id>0</id>
+    </connection>
+    <connection>
+      <id>2</id>
+      <id>1</id>
+    </connection>
+    <connection>
+      <id>3</id>
+      <id>1</id>
+    </connection>
+    <connection>
+      <id>4</id>
+      <id>3</id>
+    </connection>
+    <connection>
+      <id>6</id>
+      <id>4</id>
+    </connection>
+    <connection>
+      <id>10</id>
+      <id>3</id>
+    </connection>
+    <connection>
+      <id>10</id>
+      <id>7</id>
+    </connection>
+    <connection>
+      <id>10</id>
+      <id>8</id>
+    </connection>
+    <connection>
+      <id>10</id>
+      <id>9</id>
+    </connection>
+    <connection>
+      <id>11</id>
+      <id>1</id>
+    </connection>
+    <connection>
+      <id>11</id>
+      <id>1</id>
+    </connection>
+    <connection>
+      <id>12</id>
+      <id>11</id>
+    </connection>
+    <connection>
+      <id>12</id>
+      <id>11</id>
+    </connection>
+  </connections>
+</test>
